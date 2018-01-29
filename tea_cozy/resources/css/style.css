@@ -1,0 +1,185 @@
+/* Body */
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+  /* This opacity/font doesn't cover all text in the body? */
+  opacity: 0.9;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.9;
+  font-family: Helvetica;
+}
+
+.text {
+  background-color: black;
+  opacity: 0.9;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+  /* Can't seem to get the info classes inside the block to wrap to the next line when resizing */
+  flex-wrap: wrap;
+  /* Not sure if the margin-bottom is the way to fix not covering the top of the teacup */
+  margin-bottom: 70px;
+}
+
+/* Header */
+header {
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  height: 69px;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  opacity: 0.9;
+}
+
+#logo {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: underline;
+  padding: 10px;
+  color: seashell;
+}
+
+/* Our Mission */
+#mission {
+  padding-top: 69px;
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* Adjust the picture to lower? */
+  background-position: top;
+  opacity: 0.9;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg")
+}
+
+/* Getting rid of extra space between divs */
+#mission h2 {
+  margin: 10px 0;
+}
+
+#mission h4 {
+  margin: 10px 0;
+  padding-top: 10px;
+}
+
+/* Tea of the Month */
+#tea {
+  width: 1000px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  opacity: 0.9;
+  padding-top: 69px;
+}
+
+.pic {
+  padding: 15px;
+  opacity: 0.9;
+}
+
+#tea img {
+  height: 200px;
+  width: 300px;
+}
+
+#tea h4 {
+  margin: 10px auto;
+}
+
+/* Locations */
+#locations {
+  height: 500px;
+  padding: 35px 0;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  background-position: top;
+  opacity: 0.9;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg")
+}
+
+#locations h2 {
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.info {
+  width: 300px;
+  height: 290px;
+  opacity: 1;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 20px;
+}
+
+/* Getting rid of extra space between divs */
+.info h3 {
+  margin: 0;
+}
+
+.info span {
+  margin: 0;
+}
+
+/* The Tea Cozy */
+.cozy {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+  opacity: 0.9;
+}
+
+/* Getting rid of extra space between divs */
+.cozy h2 {
+ margin: 0 0 20px 0;
+ opacity: 0.9;
+}
+
+.cozy h5 {
+  margin: 0;
+  opacity: 0.9;
+}
+
+/* Footer */
+footer {
+  text-align: left;
+  margin-left: 20px;
+  opacity: 0.9;
+}
